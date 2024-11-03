@@ -32,7 +32,7 @@ This project is a Discord bot that checks for new videos on a specified YouTube 
 
 1. Run the script:
    ```bash
-   python your_script_name.py
+   python bot.py
    ```
 2. The bot will start and begin checking for new videos on the specified YouTube channel. When a new video is found, it will send a notification to the Discord channel.
 
