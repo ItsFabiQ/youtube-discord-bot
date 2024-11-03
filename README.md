@@ -72,8 +72,6 @@ async def check_for_new_videos():
                     channel = client.get_channel()
                     await channel.send(f'@everyone A new video has appeared on my channel - {video_url}')
                     old_video_url = video_url
-                    print(old_video_url)
-                    print(video_url)
             else:
                 print('There are no new videos')
         except Exception as e:
