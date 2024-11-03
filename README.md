@@ -97,3 +97,6 @@ client.run(discord_token)
 - **on_ready Event**: This event is triggered when the bot is ready and starts the `check_for_new_videos` task.
 - **Running the Bot**: The bot is run using `client.run(discord_token)`.
 
+## License
+
+This project is licensed under the MIT License.
